@@ -1,0 +1,34 @@
+header {
+    background-color: grey;
+    color: purple;
+}
+
+footer {
+    background-color: #cdb4db;
+    color: #cdb4db;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.main-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.nav-list a:hover {
+    color: blueviolet;
+}
