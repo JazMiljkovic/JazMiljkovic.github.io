@@ -1,0 +1,117 @@
+html,
+body {
+    display: block;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+}
+
+.section_one {
+    background-color: rgb(245, 244, 243);
+    background-image: url("image/Purple.webp");
+    width: 60%;
+    height: 100%;
+}
+
+
+.logo {
+    height: 35%;
+    border-radius: 100% / 30%;
+
+}
+
+.section_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: #fff3e6;
+}
+
+.title {
+    display: flex;
+
+}
+
+.text {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.pugpic {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffd700;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+.column {
+    float: left;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pugkennel {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.puglist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C9AD8E;
+    color: #FFFFFF;
+}
+
+.sedgwick-ave-regular {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pugkenneltittle {
+    text-align: center;
+    font-size: 85px;
+}
